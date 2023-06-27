@@ -37,5 +37,8 @@
     "url": "https://github.com/AlreadyBored/node-nodejs-basics/issues"
   },
   "homepage": "https://github.com/AlreadyBored/node-nodejs-basics#readme",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }

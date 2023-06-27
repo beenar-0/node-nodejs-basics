@@ -1,5 +1,8 @@
 const parseArgs = () => {
-    // Write your code here 
+    const reg = new RegExp(/--\w+/)
+    process.argv.forEach((item, index, arr)=>{
+        if (reg.test(item)) console.log(item.slice(2) + ` is ${arr[index+1]}`)
+    })
 };
 
 parseArgs();
